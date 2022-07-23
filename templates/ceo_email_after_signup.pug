@@ -1,0 +1,58 @@
+extends layouts/default.pug
+//- Hey {name}! Glad to see you on OurPass 😎
+
+//- Hi [Customer Name],
+
+//- I am Samuel Eze Chukwunonso, CEO and Founder of OurPass.
+
+//- I’m excited you chose OurPass to help improve your online shopping experience. OurPass was founded to create a seamless checkout and online payments process through our one-click technology.
+
+//- This road, so far, has been an exciting one. Take a look at a snippet below, which tells the tale of how OurPass came to be. Click on the image below to watch the video 🤩:
+
+//- I hope you enjoy the fastest one-click checkout experience. I’m thrilled for you to begin your exciting journey with OurPass towards a seamless shopping experience 😎.
+
+//- If you have any questions, please feel free to contact us at help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661) My team and I are always happy to help.
+
+//- Virtually Yours,
+
+//- Samuel Chukwunonso Eze
+
+//- Founder & CEO, OurPass
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') Hey #{firstName}, Glad to see you on OurPass 😎
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{fullName},
+                        div(style='padding: 14px 0;') I am Samuel Eze Chukwunonso, CEO and Founder of OurPass.
+                        div(style='padding: 14px 0;') I'm excited you chose OurPass to help improve your online shopping experience. OurPass was founded to create a seamless checkout and online payments process through our one-click technology.
+                        div(style='padding: 14px 0;') This road, so far, has been an exciting one. Take a look at a snippet below, which tells the tale of how OurPass came to be. Click on the image below to watch the video:
+                        div()
+                          a(href='https://www.youtube.com/watch?v=yCVMuGdUzJs')
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1649335506/email-template-assets/images/image_78_uva2wo.png"
+                              alt='OurPass CEO Video')
+
+                        div(style='padding: 14px 0;') I hope you enjoy the fastest one-click checkout experience. I'm thrilled for you to begin your exciting journey with OurPass towards a seamless shopping experience 😎.
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661) My team and I are always happy to help.
+                      div(style='padding: 14px 0;') 
+                      div(style='padding: 14px 0;')
+                        span Virtually Yours,
+                        br
+                        span Samuel Chukwunonso Eze
+                        br
+                        span Founder & CEO, OurPass

@@ -1,0 +1,31 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') The easiest way to collect delivery information 🚛
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{firstName},
+                        div(style='padding: 14px 0;') OurPass has been working to improve the way customers pay. We hope you'll check out everything at our website or learn more about our solutions at website. 
+                        div(style='padding: 14px 0;') In the meantime, if you are interested in receiving payments with a QR Code or Payment Link, we have great news! We made it easy to get a QR code and Payment Link by signing up for our services.
+                        div(style='padding: 14px 0;') Here is the link again: 
+                        a(href='#' style='color: #005450;') payment links
+                        span , one click checkout and headless checkout.
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') We would be happy to answer any questions you might have.
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Joyce and the OurPass Team.

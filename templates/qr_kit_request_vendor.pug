@@ -1,0 +1,43 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') We just received your request for an in-person QR kit 
+                      div()
+                        img(
+                          style='max-width: 100%; min-width: 100%' width='100%' 
+                          src="https://res.cloudinary.com/ourpass-co/image/upload/v1648195493/email-template-assets/images/MCK_3_fa9mcb.png"
+                        )
+  
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{businessName}.
+                        div(style='padding: 14px 0;') We've just received your request for the OurPass QR Kit via your dashboard.
+                        div(style='padding: 14px 0;') We've made it easy to remind your customers to use their phones to scan, pay, and go with the OurPass QR codes with your QR Kit.
+                        
+                        div(style='padding: 14px 0;') 
+                          span Your QR Kit includes:
+                          ul 
+                            li Tabletop signage with stand - image
+                            li Acceptance sticker 2”x2” - image
+                            li Payment stickers 5”x3”, 2.5”x2.5” - image 
+
+                        div(style='padding: 14px 0;') 
+                          span Here are the delivery details:
+                          ul 
+                            li Contact Name: #{contactName}
+                            li Phone Number: +#{contactPhoneNumber}
+                            li Address: #{contactAddress}
+                            li State: #{contactState}
+                            li Country: #{contactCountry}
+               
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).

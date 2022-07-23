@@ -1,0 +1,40 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') Accepting Payments with OurPass💰
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{fullName},
+                          div(style='padding: 14px 0;') it’s Joyce, your OurPass Guide. In this email, I’ll show you how to accept payments on OurPass using plugins.
+                          div(style='padding: 14px 0;') General OurPass plugins
+
+                        div(style='padding: 14px 0;') 
+                          span If your website is built on the following platforms, you can use OurPass plugins to quickly accept payments through your site:
+                             div(style='padding: 14px 0;font-weight: 500;') Wordpress
+                             div(style='padding: 14px 0;font-weight: 500;') Magento 
+                             div(style='padding: 14px 0;font-weight: 500;') Html
+                             div(style='padding: 14px 0;font-weight: 500;') Angular.js
+                             div(style='padding: 14px 0;font-weight: 500;') React.js
+                             div(style='padding: 14px 0;font-weight: 500;') Vue.js
+
+                        div(style='padding: 14px 0;') You can find the list of all the plugins here and here are detailed instructions on how to install all the plugins. In my next email I will show you how to collect delivery details from your customers.
+                        div(style='padding: 14px 0;') If OurPass currently doesn’t have a plugin for your platform, please reach out to our Customer Success Team via help@ourpass.co
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') finally if you need developers to integrate OurPass on your custom website or app, please fill out the Integration Specialist Request Form
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Warm regards,
+                          br
+                          span Joyce and the OurPass Team.

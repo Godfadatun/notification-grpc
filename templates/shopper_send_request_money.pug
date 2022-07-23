@@ -1,0 +1,52 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') The easiest way to send/request money 💵 
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{fullName},
+                          div(style='padding: 14px 0;') You can do much more than checkout on the OurPass app. You can request and send money with your OurPass account. Let’s show you how it’s done.
+                          div(style='padding: 14px 0; font-weight:bold;') To Send Money
+                          div(style='padding: 14px 0; font-weight:300;') Step #1 Log in to your OurPass app
+                          div(style='padding: 14px 0; font-weight:300;') Step #2 Click on "Send Money" on the home page
+                          div(style='padding: 14px 0; font-weight:300;') Step #3 Select your preferred option to send money (Bank Transfer Or Username) and follow the instructions accordingly
+                          div()
+                          a(href='https://www.youtube.com/watch?v=yCVMuGdUzJs')
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1649586802/email-template-assets/images/Send-Money_pfgewa.gif"
+                              alt='Send Money Video')
+
+                          div(style='padding: 14px 0; font-weight:bold;') To Request Money
+                          div(style='padding: 14px 0;') You can send payment requests and reminders to anyone by clicking on the “Request Money” option on your homepage. Here’s how:
+                          div(style='padding: 14px 0; font-weight:300;') Step #1 Search for the phone number or username
+                          div(style='padding: 14px 0; font-weight:300;') Step #2 Input the amount and click on the “Proceed” button
+                          div()
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1649586801/email-template-assets/images/Request-Money_wmkwsx.gif"
+                              alt='Request Money Video')
+
+                          div(style='padding: 14px 0;') That’s all you need to do. Happy shopping!
+                        
+                          div(style='padding: 12px 0;') Learn more about sending and requesting money here.
+                          a(href='https://ourpass.co/faq/how-to-send-money-and-request-money-from-ourpass-app/') (link)
+                          
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') Any questions? Contact us at help@ourpass.co.
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Kartikey and the OurPass Team.

@@ -1,0 +1,42 @@
+extends layouts/default.pug
+//- Hi [Customer Name],
+
+//- We're glad you've joined OurPass. 
+
+//- We believe that having a team profile on OurPass will provide you with more and better opportunities to grow your business. Not only will you be able to keep track of all transactions easily, but you will also have complete control over the team's processes.
+
+//- This short video will guide you through how to add your team members to your merchant profile on OurPass.
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') The easiest way to invite your team 
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{firstName},
+                        div(style='padding: 14px 0;') We’re glad you’ve joined OurPass.
+                        div(style='padding: 14px 0;') We believe that having a team profile on OurPass will provide you with more and better opportunities to grow your business. Not only will you be able to keep track of all transactions easily, but you will also have complete control over the team’s processes.
+                        div(style='padding: 14px 0;') This short video will guide you through how to add your team members to your merchant profile on OurPass.
+
+                        div()
+                          a(href='https://www.youtube.com/watch?v=yCVMuGdUzJs')
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1649335559/email-template-assets/images/Screenshot_2022-03-25_at_16.52_1_kolkea.png"
+                              alt='OurPass Invite Team Video')
+                              
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Kartikey and the OurPass Team.

@@ -1,0 +1,33 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') Welcome To OurPass!
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{fullName},
+                        div(style='padding: 14px 0;') Welcome to OurPass, My name is Kartikey and I am the Customer Success Manager. I will be showing you how to start receiving payments with OurPass.
+
+                        div(style='padding: 14px 0;') 
+                          span There are just a few steps between You and accepting payments with OurPass.
+                          ol 
+                            li Complete your KYC - You can only activate your business by completing your KYC. To complete your KYC please log in to the Merchant Dashboard to submit your Company Registration Document and your Corporate Bank Account information. Complete your KYC link (link to Compliance Page on dashboard)
+                            li Setup OurPass for your business - We have provided you with many ways to receive payments on OurPass. You can receive money on social media, your website, even on your wall. Choose a payment method (link to integrate your platform on the merchant dashboard)
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Kartikey and the OurPass Team.

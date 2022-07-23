@@ -1,0 +1,64 @@
+{
+  "shopper_after_signup": [
+    {
+      "temp_name": "ceo_email_after_signup",
+      "time_frame": "5 minutes"
+    },
+    {
+      "temp_name": "shopper_welcome_to_ourpass_email",
+      "time_frame": "35 minutes"
+    },
+    {
+      "temp_name": "shopper_fund_wallet",
+      "time_frame": "48:35 hours"
+    }
+  ],
+  "shopper_after_fund_wallet": [
+    {
+      "temp_name": "shopper_link_debit_card",
+      "time_frame": "30 minutes"
+    },
+    {
+      "temp_name": "shopper_send_request_money",
+      "time_frame": "24:30 hours"
+    },
+    {
+      "temp_name": "shopper_pay_bills",
+      "time_frame": "48:30 hours"
+    }
+  ],
+  "merchant_after_signup": [
+    {
+      "temp_name": "ceo_email_after_signup",
+      "time_frame": "5 minutes"
+    },
+    {
+      "temp_name": "merchant_welcome_to_ourpass_email",
+      "time_frame": "35 minutes"
+    },
+    {
+      "temp_name": "merchant_payment_link_QR_code",
+      "time_frame": "35 hours"
+    }
+  ],
+  "merchant_after_kyc_completed": [
+    {
+      "temp_name": "merchant_accepting_payments_email",
+      "time_frame": "30 minutes"
+    },
+    {
+      "temp_name": "merchant_collecting_delivery_info",
+      "time_frame": "24:30 hours"
+    }
+  ],
+  "merchant_after_first_sales": [
+    {
+      "temp_name": "merchant_know_your_customer",
+      "time_frame": "30 minutes"
+    },
+    {
+      "temp_name": "merchant_invite_team",
+      "time_frame": "24:30 hours"
+    }
+  ]
+}

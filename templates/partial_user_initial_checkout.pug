@@ -1,0 +1,56 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin-top: 40px;color: #101010;')  Hi #{firstName},
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Congratulations on your first successful one-click checkout with OurPass on #{merchantStore}.
+
+                        div(style='padding: 14px 0;') OurPass is the one-click checkout that makes your online shopping experience fast and seamless.
+
+                        div(style='padding: 14px 0;') 
+                          span But that’s not all! Here’s more you can do with OurPass:
+                          ul 
+                            li Quick access to OurPass verified stores to checkout from
+                            li Zero Transfer to any Nigerian Bank
+                            li Buy Airtime & Pay for Bills 
+                            li Track all your transactions in one place
+                        
+                    center 
+                      table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+                        tbody.mcnTextBlockOuter
+                          tr
+                            td(colspan='2')
+                              div(style='padding: 14px 0;') 
+                                center Download the App, sign in and complete your account setup.
+                          tr
+                            td.mcnTextBlockInner(valign='top' style='padding-right: 10px; text-align: right;')
+                              a.downloadApp(href='https://play.google.com/store/apps/details?id=co.our.pass.stg' style='\
+                                cursor: pointer; \
+                                text-decoration: none; \
+                              ') 
+                                img(src='https://res.cloudinary.com/ourpass-co/image/upload/v1646315146/email-template-assets/images/google-store_xo4z4p_lvsmok.png' style='width: 100px')
+
+                            td.mcnTextBlockInner(valign='top' style='padding-left: 10px; text-align: left;')
+                              a.downloadApp(href='https://apps.apple.com/ng/app/ourpass/id1588219895' style='\
+                                cursor: pointer; \
+                                text-decoration: none; \
+                              ') 
+                                img(src='https://res.cloudinary.com/ourpass-co/image/upload/v1646315146/email-template-assets/images/apple-store_v4lduw_zck0gi.png' style='width: 100px')
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                      div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span The OurPass Team.

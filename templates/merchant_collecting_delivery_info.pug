@@ -1,0 +1,34 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') The easiest way to collect delivery information 🚛
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{firstName},
+                        div(style='padding: 14px 0;') It’s me again, Kartikey, your OurPass guide. Thank you for choosing OurPass.
+                        div(style='padding: 14px 0;') In this email, I’ll be showing you how to collect essential delivery information from your shoppers.
+                        div(style='padding: 14px 0;') With a little bit of work and some help from our developers, it’s easy to access customer delivery details. Watch the video snippet below for an easy guide on how to do this.
+                         div()
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1649954319/email-template-assets/images/Feature-Article-GIF-Delivery_zf74fn.gif"
+                              alt='Collecting delivery info Video')
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Joyce and the OurPass Team.

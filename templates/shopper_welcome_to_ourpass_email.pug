@@ -1,0 +1,37 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Welcome to OurPass! My name is Joyce and I am the Customer Success Manager for OurPass. I will be showing you how to make fast, easy and secure transactions with OurPass.
+                        div(style='padding: 14px 0;') OurPass offers you effortless one-click checkout and headless checkout solutions, representing the ultimate convenience.
+                        div(style='padding: 14px 0;') One-Click Checkout: With your payment credentials and shipping information safely stored and confirmed, our one-click checkout solution allows you to make purchases with a single click, eliminating several stressful steps. 
+                        a(href='#' style='color:#005450;') Click here 
+                        span to learn more.
+                        div(style='padding: 14px 0;') Headless Checkout: Our headless checkout also allows you to purchase a product at the point of discovery with one click, by selecting "OurPass Checkout" directly from a product review, advertisement or by scanning a QR code. 
+                        a(href='#' style='color: #005450;') Click here 
+                        span to learn more.
+                        div(style='padding: 14px 0;') Watch the short video below to learn more about OurPass’ products.
+                        div()
+                          a(href='https://www.youtube.com/watch?v=yCVMuGdUzJs')
+                            img(
+                              style='max-width: 100%; min-width: 100%' width='100%' 
+                              src="https://res.cloudinary.com/ourpass-co/image/upload/v1648195493/email-template-assets/images/MCK_3_fa9mcb.png"
+                              alt='OurPass CEO Video')
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Joyce and the OurPass Team.

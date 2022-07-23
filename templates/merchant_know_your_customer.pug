@@ -1,0 +1,30 @@
+extends layouts/default.pug
+
+block content
+  table.mcnTextBlock(border='0' cellpadding='0' cellspacing='0' width='100%' style='min-width: 100%')
+    tbody.mcnTextBlockOuter
+      tr
+        td.mcnTextBlockInner(valign='top' style='padding-top: 9px')
+          table.mcnTextContentContainer(align='left' border='0' cellpadding='0' cellspacing='0' style='max-width: 100%; min-width: 100%' width='100%')
+            tbody
+              tr
+                td.mcnTextContent(valign='top')
+                  div#emailContainer()
+                    div.templateContainerFluid()
+                      h4.heading(style='margin: 20px 0px;color: #101010;') The easiest way to know your customers
+                      div()
+                       
+                      div.content(style='font-size: 16px;color: #333333;')
+                        div(style='padding: 14px 0;') Hi #{firstName},
+                        div(style='padding: 14px 0;') How well do you know your customers? For a business, understanding your customers is the key to building targeted, personalized experiences, which inspire customer loyalty and long-lasting relationships.
+                        div(style='padding: 14px 0;') Using this tool will help you improve the purchase experience of your customers
+                        div(style='padding: 13px 0;') Access your merchant analytics dashboard here 
+                          a(href="https://dashboard.ourpass.co/merchant/analytics") (link)
+
+                    div.templateContainerFluid()
+                      div(style='padding: 14px 0;') If you have any questions, feel free to reach out to us via help@ourpass.co, Live Chat or directly via WhatsApp (+2348090565661).
+                       div(style='padding: 14px 0;') 
+                        div(style='padding: 14px 0;')
+                          span Virtually Yours,
+                          br
+                          span Kartikey and the OurPass Team.
